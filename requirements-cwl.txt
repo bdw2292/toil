@@ -2,6 +2,7 @@
 # "cwltool 3.1" when installing cwltool from source.
 # But we need to keep "cwltool==" due to
 # https://github.com/jfennick/toil/blob/ac426a0e1c9ef1e1c39448cef97796cccc2e994d/setup.py#L135
+pip install git+https://github.com/misterbrandonwalker/cwltool.git@singularity_image_name
 cwltool==3.1.*
 schema-salad>=8.4.20230128170514,<9
 galaxy-tool-util<23
